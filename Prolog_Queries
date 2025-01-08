@@ -1,0 +1,5 @@
+Queries
+?- leader_for_researcher(Researcher, Leader).
+?- findall(Government, supported_by(project_app, Government), Governments).
+?- can_sit_next_to(julia, shila).
+?- findall(Researcher, significant_contributor(Researcher), Researchers).
